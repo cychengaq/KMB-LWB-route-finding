@@ -10,7 +10,7 @@ def stop_name(x):
 st.markdown('### KMB/ LWB Route finding system')
 st.markdown('***Developed by Isaac CHENG***')
 '---'
-x = st.text_input("Please enter KMB/ LWB route number, e.g. 80K/ 91M.")
+x = st.text_input("Please enter KMB/ LWB route number, e.g. 80K/ 91M.").upper()
 
 bd = bus.data
 for route in bd:
